@@ -1,0 +1,234 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Typography */
+  --font-serif: 'Crimson Pro', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  
+  /* Spacing System (8px grid) */
+  --space-1: 0.5rem; /* 8px */
+  --space-2: 1rem; /* 16px */
+  --space-3: 1.5rem; /* 24px */
+  --space-4: 2rem; /* 32px */
+  --space-6: 3rem; /* 48px */
+  --space-8: 4rem; /* 64px */
+  
+  /* Container */
+  --container-max: 1120px;
+  --container-padding-desktop: 2rem; /* 32px */
+  --container-padding-mobile: 1rem; /* 16px */
+  
+  /* Border Radius */
+  --radius-card: 14px;
+  --radius-button: 10px;
+  --radius-input: 8px;
+  
+  /* Colors - Light Mode */
+  --bg-primary: #F5F5F5; /* neutral/gray - Page Background */
+  --bg-secondary: #FFF7EC; /* brand/seashell - Subtle Sections */
+  --surface-card: #FFFFFF; /* neutral/white - Card Background */
+  --surface-overlay: rgba(255, 255, 255, 0.92);
+  
+  --text-primary: #0F0F0F; /* neutral/black - Primary Text */
+  --text-secondary: rgba(15, 15, 15, 0.7); /* 70% opacity */
+  --text-muted: rgba(15, 15, 15, 0.5); /* 50% opacity */
+  
+  --brand-accent: #F0CEA0; /* brand/champagne - Primary/Accent */
+  --brand-accent-hover: #D9B889; /* 10-15% dunkler */
+  
+  --border-default: #E6E6E6; /* Borders/Dividers */
+  --border-strong: #D9D9D9;
+  
+  --state-focus: #F0CEA0;
+  --state-error: #D32F2F;
+  --state-success: #2E7D32;
+  
+  /* Shadow */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-card-hover: 0 4px 6px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-navbar: 0 1px 0 rgba(0, 0, 0, 0.05);
+  
+  /* Backdrop Blur */
+  --blur-navbar: 16px;
+  --blur-modal: 12px;
+  
+  /* Legacy compatibility */
+  --background: var(--bg-primary);
+  --foreground: var(--text-primary);
+  --card: var(--surface-card);
+  --card-foreground: var(--text-primary);
+  --popover: var(--surface-card);
+  --popover-foreground: var(--text-primary);
+  --primary: var(--brand-accent);
+  --primary-foreground: #0F0F0F; /* Text auf Champagne Buttons = schwarz */
+  --secondary: var(--bg-secondary);
+  --secondary-foreground: var(--text-primary);
+  --muted: var(--bg-secondary);
+  --muted-foreground: var(--text-secondary);
+  --accent: var(--brand-accent);
+  --accent-foreground: #0F0F0F; /* Text auf Champagne = schwarz */
+  --destructive: var(--state-error);
+  --destructive-foreground: #FFFFFF;
+  --border: var(--border-default);
+  --input: transparent;
+  --input-background: var(--surface-card);
+  --ring: var(--state-focus);
+  --radius: var(--radius-card);
+}
+
+.dark {
+  /* Colors - Dark Mode */
+  --bg-primary: #1A1A1A;
+  --bg-secondary: #242424;
+  --surface-card: #2A2A2A;
+  --surface-overlay: rgba(42, 42, 42, 0.92);
+  
+  --text-primary: #F5F5F5;
+  --text-secondary: #A0A0A0;
+  --text-muted: #707070;
+  
+  --brand-accent: #6B7FA5;
+  --brand-accent-hover: #7B8FB5;
+  
+  --border-default: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.12);
+  
+  --state-focus: #6B7FA5;
+  --state-error: #EF5350;
+  --state-success: #66BB6A;
+  
+  /* Shadow - darker in dark mode */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.15);
+  --shadow-card-hover: 0 4px 6px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-navbar: 0 1px 0 rgba(255, 255, 255, 0.05);
+  
+  /* Legacy compatibility */
+  --background: var(--bg-primary);
+  --foreground: var(--text-primary);
+  --card: var(--surface-card);
+  --card-foreground: var(--text-primary);
+  --popover: var(--surface-card);
+  --popover-foreground: var(--text-primary);
+  --primary: var(--brand-accent);
+  --primary-foreground: #FFFFFF;
+  --secondary: var(--bg-secondary);
+  --secondary-foreground: var(--text-primary);
+  --muted: var(--bg-secondary);
+  --muted-foreground: var(--text-secondary);
+  --accent: var(--brand-accent);
+  --accent-foreground: #FFFFFF;
+  --destructive: var(--state-error);
+  --destructive-foreground: #FFFFFF;
+  --border: var(--border-default);
+  --input: var(--surface-card);
+  --ring: var(--state-focus);
+}
+
+@theme inline {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-surface-card: var(--surface-card);
+  --color-surface-overlay: var(--surface-overlay);
+  
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-accent-hover: var(--brand-accent-hover);
+  
+  --color-border-default: var(--border-default);
+  --color-border-strong: var(--border-strong);
+  
+  --color-state-focus: var(--state-focus);
+  --color-state-error: var(--state-error);
+  --color-state-success: var(--state-success);
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg-primary text-text-primary;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Typography defaults */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+
+  h1 {
+    font-size: 3.5rem; /* 56px */
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 2.5rem; /* 40px on mobile */
+    }
+  }
+
+  h2 {
+    font-size: 2.5rem; /* 40px */
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+  }
+  
+  @media (max-width: 640px) {
+    h2 {
+      font-size: 2rem; /* 32px on mobile */
+    }
+  }
+
+  h3 {
+    font-size: 1.75rem; /* 28px */
+    line-height: 1.4;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+
+  /* Smooth transitions */
+  button, a, input, select {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Line clamp utility */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
