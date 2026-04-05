@@ -18,6 +18,62 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '7',
+    slug: 'the-cookie-tin',
+    title: 'The Cookie Tin',
+    excerpt: 'Not nostalgia, but proof. A quiet record of every morning survived.',
+    body: `As a child it was only sugar
+or the tin where mother kept her sewing things.
+A tin on the shelf,
+a hand reaching inside,
+a moment of happiness.
+
+Later there was nothing sweet left.
+Only distance.
+Pain.
+Nights without a way out.
+
+So I began to collect.
+
+Every morning I survived
+one cookie.
+Every step
+I could have left behind
+but did not.
+
+Not a memory from nostalgia,
+but proof.
+
+When the body screams stop,
+I open the tin.
+Not to escape,
+but to keep going.
+
+I do not reach for hope.
+I reach for facts.
+
+You have survived this before.
+You were weaker than you are now.
+You are not here
+because someone saved you,
+but because you stayed.
+
+The tin does not fill itself.
+It is filled
+with blood,
+with shame,
+with endurance without applause.
+
+And when it seems empty,
+that is only the moment
+when you learn
+to earn a new cookie.`,
+    date: '2026-04-05',
+    week: 14,
+    tags: ['Resilience', 'SelfRespect', 'Clarity'],
+    readingTime: 2
+  },
+  {
     id: '6',
     slug: 'ultra-instinct',
     title: 'Ultra Instinct',
@@ -221,11 +277,11 @@ export const tags: Tag[] = [
   { name: 'SelfAwareness', count: 3, description: 'Bewusstsein und Selbstreflexion' },
   { name: 'Growth', count: 6, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 3, description: 'Sinn und Zweck' },
-  { name: 'Resilience', count: 2, description: 'Widerstandskraft und innere Stärke' },
-  { name: 'SelfRespect', count: 3, description: 'Selbstrespekt und Selbstachtung' },
+  { name: 'Resilience', count: 3, description: 'Widerstandskraft und innere Stärke' },
+  { name: 'SelfRespect', count: 4, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 2, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 3, description: 'Zweck und Motivation' },
-  { name: 'Clarity', count: 2, description: 'Klarheit und Verständnis' }
+  { name: 'Clarity', count: 3, description: 'Klarheit und Verständnis' }
 ];
 
 export const getPoem = (slug: string): Poem | undefined => {
