@@ -79,10 +79,10 @@ export const About = () => {
                     Questions or thoughts? Feel free to reach out.
                   </p>
                   <a
-                    href="mailto:hello@jena.writing"
+                    href="mailto:jena.writes6@gmail.com"
                     className="text-brand-accent hover:text-brand-accent-hover transition-colors"
                   >
-                    hello@jena.writing
+                    jena.writes6@gmail.com
                   </a>
                 </div>
               </div>
