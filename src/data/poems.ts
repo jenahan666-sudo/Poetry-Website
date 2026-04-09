@@ -18,6 +18,29 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '8',
+    slug: 'the-past-and-future',
+    title: 'The past and future',
+    excerpt: 'The past leaves its weight behind. What comes next is shaped by how gently we carry it.',
+    body: `The past moves through mirrors,
+showing who we were.
+Every moment carries weight.
+
+The future has not been settled.
+The past falls.
+The stone keeps count.
+
+The impact is now,
+but the mark is still being made.
+
+Only those who feel the weight of the past
+can lighten what comes next.`,
+    date: '2026-04-09',
+    week: 15,
+    tags: ['Meaning', 'Growth', 'Clarity'],
+    readingTime: 1
+  },
+  {
     id: '7',
     slug: 'the-cookie-tin',
     title: 'The Cookie Tin',
@@ -275,13 +298,13 @@ to a glimpse of hope.`,
 
 export const tags: Tag[] = [
   { name: 'SelfAwareness', count: 3, description: 'Bewusstsein und Selbstreflexion' },
-  { name: 'Growth', count: 6, description: 'Wachstum und Entwicklung' },
-  { name: 'Meaning', count: 3, description: 'Sinn und Zweck' },
+  { name: 'Growth', count: 7, description: 'Wachstum und Entwicklung' },
+  { name: 'Meaning', count: 4, description: 'Sinn und Zweck' },
   { name: 'Resilience', count: 3, description: 'Widerstandskraft und innere Stärke' },
   { name: 'SelfRespect', count: 4, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 2, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 3, description: 'Zweck und Motivation' },
-  { name: 'Clarity', count: 3, description: 'Klarheit und Verständnis' }
+  { name: 'Clarity', count: 4, description: 'Klarheit und Verständnis' }
 ];
 
 export const getPoem = (slug: string): Poem | undefined => {
