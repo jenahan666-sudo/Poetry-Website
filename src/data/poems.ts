@@ -18,6 +18,31 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '9',
+    slug: 'what-we-call-reality',
+    title: 'What We Call Reality',
+    excerpt: 'Reality is shaped by what we know, what we notice, and what we mistake for truth.',
+    body: `Each of us lives,
+dependent and bound
+by our individual knowledge
+and our awareness.
+
+That alone
+is what we call reality.
+
+However,
+both knowledge and awareness
+are equivocal.
+
+What is real to one
+may be illusion to another.`,
+    date: '2026-04-17',
+    week: 16,
+    tags: ['SelfAwareness', 'Meaning', 'Clarity'],
+    readingTime: 1
+  },
+
+  {
     id: '8',
     slug: 'the-past-and-future',
     title: 'The past and future',
@@ -297,14 +322,14 @@ to a glimpse of hope.`,
 ];
 
 export const tags: Tag[] = [
-  { name: 'SelfAwareness', count: 3, description: 'Bewusstsein und Selbstreflexion' },
+  { name: 'SelfAwareness', count: 4, description: 'Bewusstsein und Selbstreflexion' },
   { name: 'Growth', count: 7, description: 'Wachstum und Entwicklung' },
-  { name: 'Meaning', count: 4, description: 'Sinn und Zweck' },
+  { name: 'Meaning', count: 5, description: 'Sinn und Zweck' },
   { name: 'Resilience', count: 3, description: 'Widerstandskraft und innere Stärke' },
   { name: 'SelfRespect', count: 4, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 2, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 3, description: 'Zweck und Motivation' },
-  { name: 'Clarity', count: 4, description: 'Klarheit und Verständnis' }
+  { name: 'Clarity', count: 5, description: 'Klarheit und Verständnis' }
 ];
 
 export const getPoem = (slug: string): Poem | undefined => {
