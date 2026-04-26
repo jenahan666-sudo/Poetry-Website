@@ -18,6 +18,36 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '10',
+    slug: 'what-strength-was-meant-to-protect',
+    title: 'What Strength Was Meant to Protect',
+    excerpt: 'Distance can make us stronger, but sometimes strength forgets what it was meant to protect.',
+    body: `Keep your emotions out of it.
+
+As if clarity lives
+somewhere far away from feeling.
+
+But every decision I trusted
+came from somewhere deeper
+than logic could reach.
+
+Still
+I practiced distance.
+
+Still
+I learned restraint.
+
+And now I stand here stronger
+yes
+
+but I am still deciding
+what strength was meant to protect.`,
+    date: '2026-04-26',
+    week: 17,
+    tags: ['Clarity', 'SelfAwareness', 'SelfRespect'],
+    readingTime: 1
+  },
+  {
     id: '9',
     slug: 'what-we-call-reality',
     title: 'What We Call Reality',
@@ -322,14 +352,14 @@ to a glimpse of hope.`,
 ];
 
 export const tags: Tag[] = [
-  { name: 'SelfAwareness', count: 4, description: 'Bewusstsein und Selbstreflexion' },
+  { name: 'SelfAwareness', count: 5, description: 'Bewusstsein und Selbstreflexion' },
   { name: 'Growth', count: 7, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 5, description: 'Sinn und Zweck' },
   { name: 'Resilience', count: 3, description: 'Widerstandskraft und innere Stärke' },
-  { name: 'SelfRespect', count: 4, description: 'Selbstrespekt und Selbstachtung' },
+  { name: 'SelfRespect', count: 5, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 2, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 3, description: 'Zweck und Motivation' },
-  { name: 'Clarity', count: 5, description: 'Klarheit und Verständnis' }
+  { name: 'Clarity', count: 6, description: 'Klarheit und Verständnis' }
 ];
 
 export const getPoem = (slug: string): Poem | undefined => {
