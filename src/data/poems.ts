@@ -18,6 +18,51 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '11',
+    slug: 'strength-comes-to-a-need-not-for-a-desire',
+    title: 'Power Answers Need',
+    excerpt: 'Strength comes to a need, not for a desire.',
+    body: `Power does not wake
+because a man wants glory.
+
+It rises when the road burns,
+when the lungs turn to fire,
+when the body begs for silence
+and the soul says,
+not yet.
+
+Six hundred kilometres
+through Death Valley,
+where the sun does not forgive,
+where every step asks
+who sent you here?
+
+Not desire.
+Desire would have left
+when the heat became honest.
+
+Need stayed.
+
+Need tied the shoes again.
+Need swallowed the pain.
+Need looked at the impossible
+and called it one more step.
+
+And somewhere between dust,
+thirst,
+and the breaking point,
+strength arrived.
+
+Not as a gift.
+Not as a miracle.
+
+As an answer.`,
+    date: '2026-05-07',
+    week: 19,
+    tags: ['Resilience', 'Purpose', 'Growth'],
+    readingTime: 1
+  },
+  {
     id: '10',
     slug: 'what-strength-was-meant-to-protect',
     title: 'What Strength Was Meant to Protect',
@@ -353,12 +398,12 @@ to a glimpse of hope.`,
 
 export const tags: Tag[] = [
   { name: 'SelfAwareness', count: 5, description: 'Bewusstsein und Selbstreflexion' },
-  { name: 'Growth', count: 7, description: 'Wachstum und Entwicklung' },
+  { name: 'Growth', count: 8, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 5, description: 'Sinn und Zweck' },
-  { name: 'Resilience', count: 3, description: 'Widerstandskraft und innere Stärke' },
+  { name: 'Resilience', count: 4, description: 'Widerstandskraft und innere Stärke' },
   { name: 'SelfRespect', count: 5, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 2, description: 'Weisheit und Einsicht' },
-  { name: 'Purpose', count: 3, description: 'Zweck und Motivation' },
+  { name: 'Purpose', count: 4, description: 'Zweck und Motivation' },
   { name: 'Clarity', count: 6, description: 'Klarheit und Verständnis' }
 ];
 
