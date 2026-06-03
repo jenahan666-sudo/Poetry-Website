@@ -18,6 +18,44 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '12',
+    slug: 'what-courage-could-have-taught-once',
+    title: 'What Courage Could Have Taught Once',
+    excerpt: 'Pain warns first. Failure arrives later as the price of refusing the fire.',
+    body: `A man who fears pain
+more than failure
+will meet them both.
+
+He will turn from the fire,
+then freeze in the cold.
+He will guard his skin
+and lose his soul.
+
+Pain comes first
+as a warning.
+Failure comes later
+as the price.
+
+The road does not spare
+the one who waits.
+It only teaches harder
+what courage could have taught once.
+
+So step into the ache.
+Let the fear burn clean.
+
+Because the man
+who runs from pain
+does not escape suffering.
+
+He only arrives at failure
+tired.`,
+    date: '2026-06-03',
+    week: 23,
+    tags: ['Resilience', 'SelfRespect', 'Growth', 'Wisdom'],
+    readingTime: 1
+  },
+  {
     id: '11',
     slug: 'strength-comes-to-a-need-not-for-a-desire',
     title: 'Power Answers Need',
@@ -398,11 +436,11 @@ to a glimpse of hope.`,
 
 export const tags: Tag[] = [
   { name: 'SelfAwareness', count: 5, description: 'Bewusstsein und Selbstreflexion' },
-  { name: 'Growth', count: 8, description: 'Wachstum und Entwicklung' },
+  { name: 'Growth', count: 9, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 5, description: 'Sinn und Zweck' },
-  { name: 'Resilience', count: 4, description: 'Widerstandskraft und innere Stärke' },
-  { name: 'SelfRespect', count: 5, description: 'Selbstrespekt und Selbstachtung' },
-  { name: 'Wisdom', count: 2, description: 'Weisheit und Einsicht' },
+  { name: 'Resilience', count: 5, description: 'Widerstandskraft und innere Stärke' },
+  { name: 'SelfRespect', count: 6, description: 'Selbstrespekt und Selbstachtung' },
+  { name: 'Wisdom', count: 3, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 4, description: 'Zweck und Motivation' },
   { name: 'Clarity', count: 6, description: 'Klarheit und Verständnis' }
 ];
