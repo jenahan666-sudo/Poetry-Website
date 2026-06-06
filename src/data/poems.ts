@@ -18,6 +18,20 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '13',
+    slug: 'win-and-loss',
+    title: 'Win and Loss',
+    excerpt: 'Wins should pass lightly, and losses should fall without soaking the soul.',
+    body: `Let wins fly past you
+like wind through your hair
+and losses fall like rain
+that never soaks the soul.`,
+    date: '2026-06-07',
+    week: 23,
+    tags: ['Wisdom', 'Clarity', 'SelfRespect'],
+    readingTime: 1
+  },
+  {
     id: '12',
     slug: 'what-courage-could-have-taught-once',
     title: 'What Courage Could Have Taught Once',
@@ -439,10 +453,10 @@ export const tags: Tag[] = [
   { name: 'Growth', count: 9, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 5, description: 'Sinn und Zweck' },
   { name: 'Resilience', count: 5, description: 'Widerstandskraft und innere Stärke' },
-  { name: 'SelfRespect', count: 6, description: 'Selbstrespekt und Selbstachtung' },
-  { name: 'Wisdom', count: 3, description: 'Weisheit und Einsicht' },
+  { name: 'SelfRespect', count: 7, description: 'Selbstrespekt und Selbstachtung' },
+  { name: 'Wisdom', count: 4, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 4, description: 'Zweck und Motivation' },
-  { name: 'Clarity', count: 6, description: 'Klarheit und Verständnis' }
+  { name: 'Clarity', count: 7, description: 'Klarheit und Verständnis' }
 ];
 
 export const getPoem = (slug: string): Poem | undefined => {
