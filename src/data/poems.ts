@@ -17,6 +17,83 @@ export interface Tag {
 }
 
 export const poems: Poem[] = [
+    {
+    id: '14',
+    slug: 'become-through-fire',
+    title: 'Become Through Fire',
+    excerpt: 'Nothing meaningful is born in comfort. Every version of you is earned.',
+    body: `You do not become a mountain
+    the day you choose to climb.
+
+    Stone remembers
+    every storm,
+    every fracture,
+    every season
+    that refused to spare it.
+
+    So do you.
+
+    The strongest hearts
+    are not the loudest.
+    They are the ones
+    that kept beating
+    long after hope
+    forgot their name.
+
+    Growth arrives quietly.
+
+    It hides
+    inside the mornings
+    you wanted to surrender,
+    inside the nights
+    no one applauded,
+    inside the weight
+    you thought would break you
+    but slowly taught you
+    how to carry the world.
+
+    Do not envy
+    the finished masterpiece.
+
+    Love
+    the unfinished sculpture.
+
+    Every crack
+    is another place
+    where light
+    learns your name.
+
+    The fire is not your enemy.
+
+    It is the artist.
+
+    Pain is not the end.
+
+    It is the chisel.
+
+    Time is not stealing you.
+
+    It is revealing you.
+
+    And when the day comes
+    that your spirit rises
+    beyond the person
+    you once believed possible,
+
+    it will not feel
+    like becoming someone new.
+
+    It will feel
+
+    like finally meeting
+    the person
+    who was waiting for you
+    all along.`,
+    date: '2026-07-07',
+    week: 28,
+    tags: ['Growth', 'Resilience', 'Discipline'],
+    readingTime: 3
+  },
   {
     id: '13',
     slug: 'win-and-loss',
