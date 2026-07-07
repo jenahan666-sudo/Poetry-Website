@@ -19,8 +19,8 @@ export interface Tag {
 export const poems: Poem[] = [
   {
     id: '15',
-    slug: 'aus-dem-auge-aus-dem-sinn',
-    title: 'Aus dem Auge, aus dem Sinn',
+    slug: 'out-of-sight-out-of-mind',
+    title: 'Out of Sight, Out of Mind',
     excerpt: 'Some people do not disappear because they meant nothing, but because their meaning is complete.',
     body: `Out of sight,
 out of mind,
