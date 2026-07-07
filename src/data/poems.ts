@@ -18,6 +18,75 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '15',
+    slug: 'aus-dem-auge-aus-dem-sinn',
+    title: 'Aus dem Auge, aus dem Sinn',
+    excerpt: 'Some people do not disappear because they meant nothing, but because their meaning is complete.',
+    body: `Out of sight,
+out of mind,
+
+but sometimes
+it feels stranger than that.
+
+You close a door
+between two lives,
+and suddenly
+the whole street forgets
+how to lead you
+to their face.
+
+They may live close enough
+to cross your shadow,
+close enough
+to stand beside you
+inside an ordinary day.
+
+And still,
+you never see them again.
+
+As if the world
+quietly removes
+what the heart
+has already released.
+
+Maybe absence
+is not always punishment.
+
+Maybe some people
+come carrying a key
+only for one room
+inside us.
+
+They open it.
+They show us
+what we could not see.
+They leave a window
+where there used to be a wall.
+
+And when the lesson
+has finished breathing,
+life moves them
+out of the frame.
+
+Not because they meant nothing.
+
+Because their meaning
+was complete.
+
+Then space appears.
+
+For another voice,
+another mirror,
+another world
+waiting to teach us
+how wide
+our own life can become.`,
+    date: '2026-07-07',
+    week: 28,
+    tags: ['Meaning', 'Growth', 'Clarity', 'SelfAwareness'],
+    readingTime: 2
+  },
+  {
     id: '14',
     slug: 'become-through-fire',
     title: 'Become Through Fire',
@@ -526,14 +595,14 @@ to a glimpse of hope.`,
 ];
 
 export const tags: Tag[] = [
-  { name: 'SelfAwareness', count: 5, description: 'Bewusstsein und Selbstreflexion' },
-  { name: 'Growth', count: 10, description: 'Wachstum und Entwicklung' },
-  { name: 'Meaning', count: 5, description: 'Sinn und Zweck' },
+  { name: 'SelfAwareness', count: 6, description: 'Bewusstsein und Selbstreflexion' },
+  { name: 'Growth', count: 11, description: 'Wachstum und Entwicklung' },
+  { name: 'Meaning', count: 6, description: 'Sinn und Zweck' },
   { name: 'Resilience', count: 6, description: 'Widerstandskraft und innere Stärke' },
   { name: 'SelfRespect', count: 7, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 4, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 4, description: 'Zweck und Motivation' },
-  { name: 'Clarity', count: 7, description: 'Klarheit und Verständnis' },
+  { name: 'Clarity', count: 8, description: 'Klarheit und Verständnis' },
   { name: 'Discipline', count: 1, description: 'Disziplin und innere Ordnung' }
 ];
 
