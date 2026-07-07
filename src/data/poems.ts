@@ -17,78 +17,78 @@ export interface Tag {
 }
 
 export const poems: Poem[] = [
-    {
+  {
     id: '14',
     slug: 'become-through-fire',
     title: 'Become Through Fire',
     excerpt: 'Nothing meaningful is born in comfort. Every version of you is earned.',
     body: `You do not become a mountain
-    the day you choose to climb.
+the day you choose to climb.
 
-    Stone remembers
-    every storm,
-    every fracture,
-    every season
-    that refused to spare it.
+Stone remembers
+every storm,
+every fracture,
+every season
+that refused to spare it.
 
-    So do you.
+So do you.
 
-    The strongest hearts
-    are not the loudest.
-    They are the ones
-    that kept beating
-    long after hope
-    forgot their name.
+The strongest hearts
+are not the loudest.
+They are the ones
+that kept beating
+long after hope
+forgot their name.
 
-    Growth arrives quietly.
+Growth arrives quietly.
 
-    It hides
-    inside the mornings
-    you wanted to surrender,
-    inside the nights
-    no one applauded,
-    inside the weight
-    you thought would break you
-    but slowly taught you
-    how to carry the world.
+It hides
+inside the mornings
+you wanted to surrender,
+inside the nights
+no one applauded,
+inside the weight
+you thought would break you
+but slowly taught you
+how to carry the world.
 
-    Do not envy
-    the finished masterpiece.
+Do not envy
+the finished masterpiece.
 
-    Love
-    the unfinished sculpture.
+Love
+the unfinished sculpture.
 
-    Every crack
-    is another place
-    where light
-    learns your name.
+Every crack
+is another place
+where light
+learns your name.
 
-    The fire is not your enemy.
+The fire is not your enemy.
 
-    It is the artist.
+It is the artist.
 
-    Pain is not the end.
+Pain is not the end.
 
-    It is the chisel.
+It is the chisel.
 
-    Time is not stealing you.
+Time is not stealing you.
 
-    It is revealing you.
+It is revealing you.
 
-    And when the day comes
-    that your spirit rises
-    beyond the person
-    you once believed possible,
+And when the day comes
+that your spirit rises
+beyond the person
+you once believed possible,
 
-    it will not feel
-    like becoming someone new.
+it will not feel
+like becoming someone new.
 
-    It will feel
+It will feel
 
-    like finally meeting
-    the person
-    who was waiting for you
-    all along.`,
+like finally meeting
+the person
+who was waiting for you
+all along.`,
     date: '2026-07-07',
     week: 28,
     tags: ['Growth', 'Resilience', 'Discipline'],
@@ -527,13 +527,14 @@ to a glimpse of hope.`,
 
 export const tags: Tag[] = [
   { name: 'SelfAwareness', count: 5, description: 'Bewusstsein und Selbstreflexion' },
-  { name: 'Growth', count: 9, description: 'Wachstum und Entwicklung' },
+  { name: 'Growth', count: 10, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 5, description: 'Sinn und Zweck' },
-  { name: 'Resilience', count: 5, description: 'Widerstandskraft und innere Stärke' },
+  { name: 'Resilience', count: 6, description: 'Widerstandskraft und innere Stärke' },
   { name: 'SelfRespect', count: 7, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 4, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 4, description: 'Zweck und Motivation' },
-  { name: 'Clarity', count: 7, description: 'Klarheit und Verständnis' }
+  { name: 'Clarity', count: 7, description: 'Klarheit und Verständnis' },
+  { name: 'Discipline', count: 1, description: 'Disziplin und innere Ordnung' }
 ];
 
 export const getPoem = (slug: string): Poem | undefined => {
