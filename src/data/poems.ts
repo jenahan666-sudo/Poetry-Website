@@ -18,6 +18,38 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '16',
+    slug: 'a-beautiful-heart',
+    title: 'A Beautiful Heart',
+    excerpt: 'A face may catch the eye, but only a beautiful heart can make the soul feel at home.',
+    body: `Beautiful faces
+catch the eye first.
+
+They arrive like light,
+quick and easy to notice.
+
+But the soul
+does not stay
+for beauty alone.
+
+It stays
+where kindness lives,
+where warmth is honest,
+where a heart
+knows how to hold
+without owning.
+
+A face may turn your head.
+
+But only a beautiful heart
+can make your soul
+feel at home.`,
+    date: '2026-07-18',
+    week: 29,
+    tags: ['Meaning', 'Wisdom', 'SelfRespect'],
+    readingTime: 1
+  },
+  {
     id: '15',
     slug: 'out-of-sight-out-of-mind',
     title: 'Out of Sight, Out of Mind',
@@ -597,10 +629,10 @@ to a glimpse of hope.`,
 export const tags: Tag[] = [
   { name: 'SelfAwareness', count: 6, description: 'Bewusstsein und Selbstreflexion' },
   { name: 'Growth', count: 11, description: 'Wachstum und Entwicklung' },
-  { name: 'Meaning', count: 6, description: 'Sinn und Zweck' },
+  { name: 'Meaning', count: 7, description: 'Sinn und Zweck' },
   { name: 'Resilience', count: 6, description: 'Widerstandskraft und innere Stärke' },
-  { name: 'SelfRespect', count: 7, description: 'Selbstrespekt und Selbstachtung' },
-  { name: 'Wisdom', count: 4, description: 'Weisheit und Einsicht' },
+  { name: 'SelfRespect', count: 8, description: 'Selbstrespekt und Selbstachtung' },
+  { name: 'Wisdom', count: 5, description: 'Weisheit und Einsicht' },
   { name: 'Purpose', count: 4, description: 'Zweck und Motivation' },
   { name: 'Clarity', count: 8, description: 'Klarheit und Verständnis' },
   { name: 'Discipline', count: 1, description: 'Disziplin und innere Ordnung' }
