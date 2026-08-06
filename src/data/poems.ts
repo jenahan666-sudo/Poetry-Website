@@ -18,6 +18,29 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '17',
+    slug: 'the-art-of-the-strongest',
+    title: 'The Art of the Strongest',
+    excerpt: 'You only win when your mind is stronger than your emotions.',
+    body: `As long as I live I have infinite chances.
+That has to be one of my favourite anime quotes of all time, coming from Luffy.
+You can lose a job, you can lose money, you can get rejected by a girl, and you can completely embarrass yourself.
+As long as you live, none of it matters because you can always go again.
+Tomorrow will always be another attempt and that's exactly how you need to think going forward.
+
+Luffy gets beaten down.
+He loses consistently, almost like Mark Grayson, maybe not as bad.
+People laugh at his dream and yet he always pursues his dream.
+He understands that so long as he lives there's always going to be an opportunity out there for him.
+There's no point in quitting after one chapter.
+If you feel like it's your calling, you have to keep on writing your story.
+After all you're still breathing.`,
+    date: '2026-08-06',
+    week: 32,
+    tags: ['Resilience', 'Purpose', 'Growth', 'Discipline'],
+    readingTime: 1
+  },
+  {
     id: '16',
     slug: 'a-beautiful-heart',
     title: 'A Beautiful Heart',
@@ -628,14 +651,14 @@ to a glimpse of hope.`,
 
 export const tags: Tag[] = [
   { name: 'SelfAwareness', count: 6, description: 'Bewusstsein und Selbstreflexion' },
-  { name: 'Growth', count: 11, description: 'Wachstum und Entwicklung' },
+  { name: 'Growth', count: 12, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 7, description: 'Sinn und Zweck' },
-  { name: 'Resilience', count: 6, description: 'Widerstandskraft und innere Stärke' },
+  { name: 'Resilience', count: 7, description: 'Widerstandskraft und innere Stärke' },
   { name: 'SelfRespect', count: 8, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 5, description: 'Weisheit und Einsicht' },
-  { name: 'Purpose', count: 4, description: 'Zweck und Motivation' },
+  { name: 'Purpose', count: 5, description: 'Zweck und Motivation' },
   { name: 'Clarity', count: 8, description: 'Klarheit und Verständnis' },
-  { name: 'Discipline', count: 1, description: 'Disziplin und innere Ordnung' }
+  { name: 'Discipline', count: 2, description: 'Disziplin und innere Ordnung' }
 ];
 
 export const getPoem = (slug: string): Poem | undefined => {
