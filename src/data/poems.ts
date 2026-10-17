@@ -30,8 +30,8 @@ He was fighting because he had to win.
 Losing wasn't an option.
 And that's a different mentality.
 
-When you tell yourself I hope I win, I hope I get my dreams, I hope I get this promotion, you're already accepting that there is a possibility you will lose and that you may not get the opportunity you want.
-But when you decide I have to win, I will get this opportunity, I will achieve these goals I have in my mind, your whole approach changes.
+When you tell yourself, "I hope I win, I hope I get my dreams, I hope I get this promotion," you're already accepting that there is a possibility you will lose and that you may not get the opportunity you want.
+But when you decide, "I have to win, I will get this opportunity, I will achieve these goals I have in my mind," your whole approach changes.
 You don't fold just because you failed.
 You don't start questioning your dream every time something goes wrong.
 
@@ -46,7 +46,7 @@ It's either I reach this goal or I die trying.
 That's the mentality you need to have.
 And once you have that, there is no Plan B in your head.
 
-The only question you have to ask yourself is, how am I going to get there?
+The only question you have to ask yourself is: How am I going to get there?
 How am I going to get to that goal?
 How long is it going to take?
 What do I need to do?
