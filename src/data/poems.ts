@@ -18,6 +18,56 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '19',
+    slug: 'there-is-no-plan-b',
+    title: 'There Is No Plan B',
+    excerpt: 'Stop hoping you will make it. Decide that you have to.',
+    body: `Do you want to fight?
+
+This question from Zangetsu to Ichigo has stuck with me ever since I watched Bleach.
+Because as we see throughout Bleach, Ichigo wasn't fighting because he thought winning was guaranteed.
+He was fighting because he had to win.
+Losing wasn't an option.
+And that's a different mentality.
+
+When you tell yourself I hope I win, I hope I get my dreams, I hope I get this promotion, you're already accepting that there is a possibility you will lose and that you may not get the opportunity you want.
+But when you decide I have to win, I will get this opportunity, I will achieve these goals I have in my mind, your whole approach changes.
+You don't fold just because you failed.
+You don't start questioning your dream every time something goes wrong.
+
+Look at it like this.
+At the end of the day, you are going to find a way to get the money for your rent.
+Because it's do or die.
+You need a place to live.
+That's the same mentality you need to have with your dreams and goals.
+
+There is no Plan B.
+It's either I reach this goal or I die trying.
+That's the mentality you need to have.
+And once you have that, there is no Plan B in your head.
+
+The only question you have to ask yourself is, how am I going to get there?
+How am I going to get to that goal?
+How long is it going to take?
+What do I need to do?
+
+You won't be able to control every obstacle.
+You can't control how long this journey will take either.
+But you can control you.
+
+So stop hoping.
+Start doing.
+Start knowing that it's going to happen for you.
+Speak it into existence and go get it.
+
+There is no Plan B.
+You got this.`,
+    date: '2026-10-17',
+    week: 42,
+    tags: ['Purpose', 'Resilience', 'Discipline', 'Growth'],
+    readingTime: 2
+  },
+  {
     id: '18',
     slug: 'im-back',
     title: "I'm Back",
@@ -695,14 +745,14 @@ to a glimpse of hope.`,
 
 export const tags: Tag[] = [
   { name: 'SelfAwareness', count: 7, description: 'Bewusstsein und Selbstreflexion' },
-  { name: 'Growth', count: 13, description: 'Wachstum und Entwicklung' },
+  { name: 'Growth', count: 14, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 7, description: 'Sinn und Zweck' },
-  { name: 'Resilience', count: 7, description: 'Widerstandskraft und innere Stärke' },
+  { name: 'Resilience', count: 8, description: 'Widerstandskraft und innere Stärke' },
   { name: 'SelfRespect', count: 8, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 5, description: 'Weisheit und Einsicht' },
-  { name: 'Purpose', count: 6, description: 'Zweck und Motivation' },
+  { name: 'Purpose', count: 7, description: 'Zweck und Motivation' },
   { name: 'Clarity', count: 9, description: 'Klarheit und Verständnis' },
-  { name: 'Discipline', count: 2, description: 'Disziplin und innere Ordnung' }
+  { name: 'Discipline', count: 3, description: 'Disziplin und innere Ordnung' }
 ];
 
 export const getPoem = (slug: string): Poem | undefined => {
