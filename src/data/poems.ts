@@ -18,6 +18,50 @@ export interface Tag {
 
 export const poems: Poem[] = [
   {
+    id: '18',
+    slug: 'im-back',
+    title: "I'm Back",
+    excerpt: 'Sometimes you have to step away to remember why you started.',
+    body: `It's been a few months since my last post.
+I didn't plan to disappear. I simply reached a point where I had nothing meaningful left to say.
+For a long time I was carrying Jena-Writes every single day, always thinking about what came next.
+From the outside, it probably looked like I was doing everything right.
+Inside, I felt empty.
+
+When showing up becomes difficult
+
+I kept asking myself the same question.
+What am I actually working toward?
+I was showing up every day, but somewhere along the way I stopped looking forward to it. The spark that made creating feel meaningful slowly disappeared.
+So I stepped away.
+Not because I wanted to quit.
+Because I needed enough distance to remember why I started in the first place.
+
+Stepping back isn't always moving backwards
+
+There is often pressure to keep producing, keep growing, and keep moving.
+But sometimes the most important step forward is knowing when to pause.
+Taking a step back gave me something I hadn't felt in a long time.
+Clarity.
+It reminded me that my purpose was never to post for the sake of posting. It was to create something that genuinely helps people think differently about their life.
+That is why Jena-Writes existed in the first place.
+
+Jena-Writes returns
+
+So I'm coming back.
+Not because I suddenly found endless motivation.
+Not because everything is perfectly figured out.
+I'm coming back because writing these letters is something I genuinely enjoy. They allow me to slow down, reflect, and share ideas.
+One letter at a time.
+Thank you for staying here.
+It means more than you probably realize.
+Until next time, keep growing 1 percent every day.`,
+    date: '2026-10-17',
+    week: 42,
+    tags: ['Clarity', 'Purpose', 'Growth', 'SelfAwareness'],
+    readingTime: 2
+  },
+  {
     id: '17',
     slug: 'the-art-of-the-strongest',
     title: 'The Art of the Strongest',
@@ -650,14 +694,14 @@ to a glimpse of hope.`,
 ];
 
 export const tags: Tag[] = [
-  { name: 'SelfAwareness', count: 6, description: 'Bewusstsein und Selbstreflexion' },
-  { name: 'Growth', count: 12, description: 'Wachstum und Entwicklung' },
+  { name: 'SelfAwareness', count: 7, description: 'Bewusstsein und Selbstreflexion' },
+  { name: 'Growth', count: 13, description: 'Wachstum und Entwicklung' },
   { name: 'Meaning', count: 7, description: 'Sinn und Zweck' },
   { name: 'Resilience', count: 7, description: 'Widerstandskraft und innere Stärke' },
   { name: 'SelfRespect', count: 8, description: 'Selbstrespekt und Selbstachtung' },
   { name: 'Wisdom', count: 5, description: 'Weisheit und Einsicht' },
-  { name: 'Purpose', count: 5, description: 'Zweck und Motivation' },
-  { name: 'Clarity', count: 8, description: 'Klarheit und Verständnis' },
+  { name: 'Purpose', count: 6, description: 'Zweck und Motivation' },
+  { name: 'Clarity', count: 9, description: 'Klarheit und Verständnis' },
   { name: 'Discipline', count: 2, description: 'Disziplin und innere Ordnung' }
 ];
 
